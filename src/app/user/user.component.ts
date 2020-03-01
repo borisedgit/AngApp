@@ -13,7 +13,7 @@ export class UserComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  gotToHome() {
+  goToHome() {
     this.router.navigate(["home"]);
   }
 
