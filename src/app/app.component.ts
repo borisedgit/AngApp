@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngApp';
+
+  h1Click() {
+    console.log("H1 was clicked");
+  }
 }
